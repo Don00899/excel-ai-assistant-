@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free Excel AI Assistant</title>
+<link rel="stylesheet" href="taskpane.css">
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+<body>
+<div class="app">
+  <header><div class="logo">✦</div><div><h1>Excel AI Assistant</h1><p>Free-tier AI helper</p></div></header>
+  <label for="key">Gemini API key</label>
+  <input id="key" type="password" placeholder="Paste your API key here">
+  <div class="small">Key is kept in this browser session only. Never share it.</div>
+  <div class="row">
+    <button id="readBtn" class="secondary">Read selected cells</button>
+    <button id="clearBtn" class="secondary">Clear chat</button>
+  </div>
+  <div id="selection" class="selection">No worksheet data loaded.</div>
+  <div id="chat" class="chat" aria-live="polite">
+    <div class="msg assistant">Hello! Select cells in Excel, click <b>Read selected cells</b>, then ask me about the data. I can help with formulas, analysis, charts, and VBA.</div>
+  </div>
+  <textarea id="prompt" rows="3" placeholder="Ask in Bengali or English…"></textarea>
+  <div class="row">
+    <button id="sendBtn">Send to AI</button>
+    <button id="insertBtn" class="secondary" title="Insert latest answer into active cell">Insert answer in cell</button>
+  </div>
+  <div id="status" class="small"></div>
+  <footer>Check AI output before using it. API usage may be limited or charged depending on provider account.</footer>
+</div>
+<script src="taskpane.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0" xsi:type="TaskPaneApp">
+  <Id>8b93e5cb-6077-4ac2-9c50-1e9c6d37a1d2</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>Personal Free AI Assistant</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Excel AI Assistant"/>
+  <Description DefaultValue="A personal AI helper for Excel using your own API key."/>
+  <IconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/icon-64.png"/>
+  <SupportUrl DefaultValue="https://github.com/"/>
+  <AppDomains><AppDomain>https://generativelanguage.googleapis.com</AppDomain></AppDomains>
+  <Hosts><Host Name="Workbook"/></Hosts>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/taskpane.html"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>

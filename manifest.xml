@@ -6,13 +6,13 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Excel AI Assistant"/>
   <Description DefaultValue="A personal AI helper for Excel using your own API key."/>
-  <IconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/icon-64.png"/>
+  <IconUrl DefaultValue="https://don00899.github.io/excel-ai-assistant-/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://don00899.github.io/excel-ai-assistant-/icon-64.png"/>
   <SupportUrl DefaultValue="https://github.com/"/>
   <AppDomains><AppDomain>https://generativelanguage.googleapis.com</AppDomain></AppDomains>
   <Hosts><Host Name="Workbook"/></Hosts>
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://YOUR-GITHUB-USERNAME.github.io/excel-ai-assistant/taskpane.html"/>
+    <SourceLocation DefaultValue="https://don00899.github.io/excel-ai-assistant-/taskpane.html"/>
   </DefaultSettings>
   <Permissions>ReadWriteDocument</Permissions>
 </OfficeApp>
